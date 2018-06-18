@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'AvertaBold';
+  src: url("fonts/averta-bold-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/averta-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/averta-bold-webfont.woff2") format("woff2"), url("fonts/averta-bold-webfont.woff") format("woff"), url("fonts/averta-bold-webfont.ttf") format("truetype"), url("fonts/averta-bold-webfont.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AvertaRegular';
+  src: url("fonts/averta-regular-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/averta-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/averta-regular-webfont.woff2") format("woff2"), url("fonts/averta-regular-webfont.woff") format("woff"), url("fonts/averta-regular-webfont.ttf") format("truetype"), url("fonts/averta-regular-webfont.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'AvertaRegular', 'Roboto', sans-serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  margin: 0px;
+  padding: 0px; }
+
+header, main, footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: 'AvertaBold';
+  letter-spacing: 0.01em;
+  word-spacing: 0.04em; }
+
+h1 {
+  font-size: 34px;
+  text-transform: uppercase;
+  letter-spacing: -0.01em; }
+
+h2 {
+  font-size: 24px;
+  display: inline-block;
+  margin-right: 30px; }
+  @media screen and (max-width: 980px) {
+    h2 {
+      font-size: 22px; } }
+
+p {
+  font-family: 'AvertaRegular';
+  font-size: 1em;
+  font-weight: 300;
+  margin: 4px 0px;
+  letter-spacing: -0.02em;
+  line-height: 1.4em;
+  color: #000000;
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: common-ligatures; }
