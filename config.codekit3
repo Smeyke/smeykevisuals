@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/fonts\/averta-bold-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -85,6 +95,132 @@
 		"oAP": "\/fonts\/averta-regular-webfont.woff2",
 		"oF": 0
 		},
+	"\/img\/favicon\/apple-touch-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 4798,
+		"oA": 0,
+		"oAP": "\/img\/favicon\/apple-touch-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicon\/apple-touch-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 4622,
+		"oA": 0,
+		"oAP": "\/img\/favicon\/apple-touch-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicon\/apple-touch-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 7097,
+		"oA": 0,
+		"oAP": "\/img\/favicon\/apple-touch-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicon\/apple-touch-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 7910,
+		"oA": 0,
+		"oAP": "\/img\/favicon\/apple-touch-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicon\/apple-touch-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 1569,
+		"oA": 0,
+		"oAP": "\/img\/favicon\/apple-touch-icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicon\/apple-touch-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 2081,
+		"oA": 0,
+		"oAP": "\/img\/favicon\/apple-touch-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicon\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 417,
+		"oA": 0,
+		"oAP": "\/img\/favicon\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicon\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 793,
+		"oA": 0,
+		"oAP": "\/img\/favicon\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicon\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/img\/favicon\/favicon.ico",
+		"oF": 0
+		},
+	"\/img\/favicon\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 7097,
+		"oA": 0,
+		"oAP": "\/img\/favicon\/mstile-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/smeyke-visuals-logo-vector.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/smeyke-visuals-logo-vector.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -92,120 +228,14 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/links\/apple-touch-icon-114x114.png": {
-		"ft": 32768,
-		"iS": 4798,
-		"oA": 0,
-		"oAP": "\/links\/apple-touch-icon-114x114.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/links\/apple-touch-icon-120x120.png": {
-		"ft": 32768,
-		"iS": 4622,
-		"oA": 0,
-		"oAP": "\/links\/apple-touch-icon-120x120.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/links\/apple-touch-icon-144x144.png": {
-		"ft": 32768,
-		"iS": 7097,
-		"oA": 0,
-		"oAP": "\/links\/apple-touch-icon-144x144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/links\/apple-touch-icon-152x152.png": {
-		"ft": 32768,
-		"iS": 7910,
-		"oA": 0,
-		"oAP": "\/links\/apple-touch-icon-152x152.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/links\/apple-touch-icon-57x57.png": {
-		"ft": 32768,
-		"iS": 1569,
-		"oA": 0,
-		"oAP": "\/links\/apple-touch-icon-57x57.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/links\/apple-touch-icon-72x72.png": {
-		"ft": 32768,
-		"iS": 2081,
-		"oA": 0,
-		"oAP": "\/links\/apple-touch-icon-72x72.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/links\/favicon-16x16.png": {
-		"ft": 32768,
-		"iS": 417,
-		"oA": 0,
-		"oAP": "\/links\/favicon-16x16.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/links\/favicon-32x32.png": {
-		"ft": 32768,
-		"iS": 793,
-		"oA": 0,
-		"oAP": "\/links\/favicon-32x32.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/links\/favicon.ico": {
+	"\/readme.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/links\/favicon.ico",
+		"oAP": "\/readme.html",
 		"oF": 0
 		},
-	"\/links\/mstile-144x144.png": {
-		"ft": 32768,
-		"iS": 7097,
-		"oA": 0,
-		"oAP": "\/links\/mstile-144x144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/README.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/README.html",
-		"oF": 0
-		},
-	"\/README.md": {
+	"\/readme.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -214,7 +244,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "\/readme.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -223,28 +253,103 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/styles.sass": {
+	"\/sass\/_basic.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/styles.css",
+		"oA": 1,
+		"oAP": "\/sass\/_basic.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/sass\/_nav.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_skeleton-grid.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_skeleton-grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_vars.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_vars.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/style.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scripts\/functions.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/scripts\/functions-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/scripts\/min\/functions-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/scripts\/min\/functions-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		}
 	},
 "hooks": [
@@ -255,7 +360,7 @@
 	"creationDate": 551005166,
 	"displayValue": "smeykevisuals-code",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/links\/apple-touch-icon-114x114.png",
+	"iconImageName": "\/img\/favicon\/apple-touch-icon-114x114.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

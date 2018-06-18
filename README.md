@@ -1,3 +1,1 @@
-# smeykevisuals.ch
-
-### personal portfolio website
+### smeykevisuals.ch

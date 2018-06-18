@@ -1,0 +1,168 @@
+//  NAVIGATION STYLES
+
+header
+  background-color: $white
+  margin: 0px
+  padding: 0px
+
+
+#header-wrapper
+  max-width: 1200px
+  background: transparent
+  margin: 0 auto
+  height: 100px
+
+
+.fluid-header
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  z-index: 150
+  background: $white
+  box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.8)
+  height: 100px
+  transition: all ease-in-out 350ms
+
+
+.small
+  height: 50px !important
+  transition: all ease-in-out 350ms
+
+#header-wrapper.small #logo-box #logo
+  margin-top: 5px
+  transition: all ease-in-out 350ms
+
+#header-wrapper.small #cpmenu .s-header
+  margin-top: 0px
+  transition: all ease-in-out 350ms
+
+
+.s-header
+  line-height: 34px
+  width: auto
+  padding: 0px
+  background: transparent
+  position: relative
+  z-index: 100
+  margin-right: -10px
+  margin-top: 25px
+  transition: all ease-in-out 350ms
+
+  //  ul nav font-size: 0 fixes space between inline-block elements
+  ul.nav
+    background: transparent
+    margin: 0px 10px 0px 0px
+    font-size: 0
+    @media screen and (max-width: $break-one)
+      margin: 0px
+
+  ul.nav li
+    display: inline-block
+    padding: 0px
+    @media screen and (max-width: $break-one)
+      display: block
+      margin: 0px
+      padding: 0px
+
+  ul li a
+    color: black
+    background: transparent
+    text-decoration: none
+    margin: 0px
+    display: inline-block
+    font:
+      size: 18pt
+      weight: 400
+    line-height: 35px
+    padding: 0px 2px
+    margin: 0px 16px
+
+    &:hover
+      border-bottom: solid 4px black
+
+    @media screen and (max-width: $break-one)
+      height: 60px
+      width: 100%
+      line-height: 58px
+      text-align: center
+      margin: 0px 0px
+      background: $white
+      padding: 0px
+      font:
+        size: 16pt
+        weight: 400
+      border-top: solid 1px gray
+      &:hover
+        color: $white
+        background: $black
+
+#logo
+  background:
+    color: transparent
+    image: url("../img/logo.svg")
+    position: left center
+    size: contain
+    repeat: no-repeat
+  height: 40px
+  width: 200px
+  display: inline-block
+  margin: 34px 10px 5px 10px
+  transition: all ease-in-out 350ms
+
+#cptoggle
+  width: 28px
+  height: 30px
+  margin: 12px 10px 0px
+  z-index: 80
+  display: inline-block
+  background: transparent
+  float: right
+  display: none
+
+  &:hover
+    cursor: pointer
+
+  @media screen and (max-width: $break-one)
+    display: inline
+
+// margin-top to center the logo in header, adjust for all media querys
+#cpmenu
+  background: transparent
+  padding: 0px
+  display: block
+  margin: 0px
+  position: relative
+  z-index: 40
+  display: inline-block
+  float: right
+  margin: 12px 0px 0px
+
+  @media screen and (max-width: $break-one)
+    display: none
+    float: none
+    padding: 0px
+    margin: 0px
+
+
+// HAMBURGER MENU STYLING
+#cptoggle div
+  width: 100%
+  height: 4px
+  background: black
+  margin: 4px auto
+  transition: all ease-in-out 0.3s
+  backface-visibility: hidden
+  display: none
+  @media screen and (max-width: $break-one)
+    display: block
+
+
+#cptoggle.on .one
+  transform: rotate(45deg) translate(4px, 4px)
+
+#cptoggle.on .two
+  opacity: 0
+
+#cptoggle.on .three
+  transform: rotate(-45deg) translate(8px, -8px)

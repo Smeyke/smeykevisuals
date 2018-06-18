@@ -1,0 +1,278 @@
+// VARS FOR MEDIA QUERIES
+
+$break-one:   860px
+
+
+// BASIC COLORS AND SHADES OF GREY TONES
+
+$aqua:        #7FDBFF
+$blue:        #0074D9
+$navy:        #001F3F
+$teal:        #39CCCC
+$green:       #2ECC40
+$olive:       #3D9970
+$lime:        #01FF70
+$yellow:      #FFDC00
+$orange:      #FF851B
+$red:         #FF4136
+$fuchsia:     #F012BE
+$purple:      #B10DC9
+$maroon:      #85144B
+
+$white       : #FFFFFF
+$ghost       : #FAFAFA
+$snow        : #F9F9F9
+$vapor       : #F6F6F6
+$white-smoke : #F5F5F5
+$silver      : #EFEFEF
+$smoke       : #EEEEEE
+$gainsboro   : #DDDDDD
+$silver      : #CCCCCC
+$base        : #AAAAAA
+$aluminum    : #999999
+$jumbo       : #888888
+$monsoon     : #777777
+$steel       : #666666
+$charcoal    : #555555
+$tuatara     : #444444
+$oil         : #333333
+$jet         : #222222
+$black       : #000000
+
+
+// SOCIAL MEDIA COLORS
+
+$facebook-clr:    #3B5998
+$twitter-clr:     #55ACEE
+$googleplus-clr:  #DD4B39
+$youtube-clr:     #BB0000
+$linkedin-clr:    #007BB5
+$instagram-clr:   #125688
+$whatsapp-clr:    #4DC247
+$pinterest-clr:   #CB2027
+$vine-clr:        #00BF8F
+$snapchat-clr:    #FFFC00
+$quora-clr:       #A82400
+$dropbox-clr:     #007EE5
+$flickr-color:    #FF0084
+$tumblr-clr:      #32506D
+$vimeo-clr:       #AAD450
+$foursuqare-clr:  #0072B1
+$spotify-clr:     #1DB954
+$github-clr:      #000000
+$behance-clr:     #1769FF
+$rss-clr:         #FF6600
+
+
+// PLACE FOR CLIENT COLORS
+
+$sv-color-01:  #106ee8
+
+
+// FONT STUFF
+
+@font-face
+  font-family: 'AvertaBold'
+  src: url('../fonts/averta-bold-webfont.eot')
+  /* IE9 Compat Modes
+  src: url('../fonts/averta-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/averta-bold-webfont.woff2') format("woff2"), url('../fonts/averta-bold-webfont.woff') format("woff"), url('../fonts/averta-bold-webfont.ttf') format("truetype"), url('../fonts/averta-bold-webfont.svg#svgFontName') format("svg")
+  /* Legacy iOS
+  font-weight: 700
+  font-style: bold
+
+@font-face
+  font-family: 'AvertaRegular'
+  src: url('../fonts/averta-regular-webfont.eot')
+  /* IE9 Compat Modes
+  src: url('../fonts/averta-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/averta-regular-webfont.woff2') format("woff2"), url('../fonts/averta-regular-webfont.woff') format("woff"), url('../fonts/averta-regular-webfont.ttf') format("truetype"), url('../fonts/averta-regular-webfont.svg#svgFontName') format("svg")
+  /* Legacy iOS
+  font-weight: 400
+  font-style: normal
+
+
+
+@charset "UTF-8"
+
+
+
+
+// CLEARFIX FOR FLOATS
+.clearfix:after
+	content: " "
+	display: block
+	height: 0
+	clear: both
+
+
+// BASIC STYLES
+
+body
+	background: #f6f6f6
+	font:
+		family: "AvertaRegular","Roboto", Helvetica Neue, Helvetica, sans-serif
+		weight: 400
+
+section p
+	max-width: 1200px
+	margin: 40px auto 80px
+	padding: 40px 16px 40px
+	position: relative
+	background-color: $white
+
+	@media screen and (max-width: $break-one)
+		padding: 120px 8px 40px
+
+
+//  NAVIGATION STYLES
+
+header
+  background-color: $white
+  margin: 0px
+  padding: 0px
+
+
+#header-wrapper
+  max-width: 1200px
+  margin: 0 auto
+
+
+.fluid-header
+  position: fixed
+  width: 100%
+  top: 0
+  left: 50%
+  transform: translateX(-50%)
+  max-width: 1200px
+  z-index: 20
+  background: $white
+  height: 40px
+  border-bottom: solid 1px $black
+  transition: all ease-in-out 300ms
+
+.s-header
+  width: auto
+  padding: 0px
+  background: transparent
+  position: relative
+  z-index: 100
+  margin-top: 5px
+  transition: all ease-in-out 250ms
+
+  //  ul nav font-size: 0 fixes space between inline-block elements
+  ul.nav
+    background: transparent
+    margin: 0px 10px 0px 0px
+    font-size: 0
+    @media screen and (max-width: $break-one)
+      margin: 0px
+
+  ul.nav li
+    display: inline-block
+    padding: 0px
+    @media screen and (max-width: $break-one)
+      display: block
+      margin: 0px
+      padding: 0px
+
+  ul li a
+    color: $black
+    background: transparent
+    text-decoration: none
+    margin: 0px
+    display: inline-block
+    font:
+      size: 16px
+      weight: 400
+    line-height: 16px
+    padding: 0px 2px
+    margin: 0px 8px
+
+    &:hover
+      color: $sv-color-01
+
+    @media screen and (max-width: $break-one)
+      height: 60px
+      width: 100%
+      line-height: 58px
+      text-align: center
+      margin: 0px 0px
+      background: $white
+      padding: 0px
+      font:
+        size: 12pt
+      border-top: solid 1px gray
+      &:hover
+        color: $white
+        background: $sv-color-01
+
+#logo
+  background:
+    color: transparent
+    image: url("../img/smeyke-visuals-logo-vector.svg")
+    position: left center
+    size: contain
+    repeat: no-repeat
+  height: 28px
+  width: 200px
+  display: inline-block
+  margin: 8px 0px 0px 10px
+
+#cptoggle
+  width: 28px
+  height: 30px
+  margin: 6px 8px 0px 12px
+  z-index: 80
+  display: inline-block
+  background: transparent
+
+  float: right
+  display: none
+
+  &:hover
+    cursor: pointer
+
+  @media screen and (max-width: $break-one)
+    display: inline
+
+// margin-top to center the logo in header, adjust for all media querys
+#cpmenu
+  background: transparent
+  padding: 0px
+  display: block
+  margin: 0px
+  position: relative
+  z-index: 40
+  display: inline-block
+  float: right
+  margin: 8px 0px 0px 12px
+
+  @media screen and (max-width: $break-one)
+    display: none
+    float: none
+    padding: 0px
+    margin: 0px
+
+
+// HAMBURGER MENU STYLING
+#cptoggle div
+  width: 100%
+  height: 4px
+  background: darken($sv-color-01, 30%)
+  margin: 4px auto
+  transition: all ease-in-out 0.3s
+  backface-visibility: hidden
+  display: none
+  @media screen and (max-width: $break-one)
+    display: block
+
+  &:hover
+    background: darken($sv-color-01, 25%)
+
+#cptoggle.on .one
+  transform: rotate(45deg) translate(4px, 4px)
+
+#cptoggle.on .two
+  opacity: 0
+
+#cptoggle.on .three
+  transform: rotate(-45deg) translate(8px, -8px)
