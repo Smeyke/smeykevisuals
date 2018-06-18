@@ -105,17 +105,19 @@ $sv-color-01:  #106ee8
 
 
 // BASIC STYLES
-
 body
-	background: #f6f6f6
+	background: $vapor
 	font:
 		family: "AvertaRegular","Roboto", Helvetica Neue, Helvetica, sans-serif
 		weight: 400
 
+main
+  background: $jet
+
 section p
 	max-width: 1200px
 	margin: 40px auto 80px
-	padding: 40px 16px 40px
+	padding: 40px 0px
 	position: relative
 	background-color: $white
 
@@ -144,10 +146,9 @@ header
   transform: translateX(-50%)
   max-width: 1200px
   z-index: 20
-  background: $white
+  background: $vapor
   height: 40px
-  border-bottom: solid 1px $black
-  transition: all ease-in-out 300ms
+
 
 .s-header
   width: auto
@@ -162,6 +163,7 @@ header
   ul.nav
     background: transparent
     margin: 0px 10px 0px 0px
+    padding: 0px
     font-size: 0
     @media screen and (max-width: $break-one)
       margin: 0px
@@ -204,6 +206,7 @@ header
       &:hover
         color: $white
         background: $sv-color-01
+
 
 #logo
   background:
@@ -276,3 +279,28 @@ header
 
 #cptoggle.on .three
   transform: rotate(-45deg) translate(8px, -8px)
+
+
+#sv-grid-wrapper
+  max-width: 1200px
+  display: block
+  margin: 40px auto 0px
+  background: $oil
+
+#sv-grid
+  background: green
+  float: left
+  width: 100%
+
+.sv-grid-item
+  display: inline-block
+  width: 50%
+  min-height: 400px
+  background: red
+
+#sv-grid-item-01
+  background: blue
+
+
+#sv-grid-item-03
+  background: yellow

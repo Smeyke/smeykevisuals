@@ -23,14 +23,17 @@
   clear: both; }
 
 body {
-  background: #f6f6f6;
+  background: #F6F6F6;
   font-family: "AvertaRegular","Roboto", Helvetica Neue, Helvetica, sans-serif;
   font-weight: 400; }
+
+main {
+  background: #222222; }
 
 section p {
   max-width: 1200px;
   margin: 40px auto 80px;
-  padding: 40px 16px 40px;
+  padding: 40px 0px;
   position: relative;
   background-color: #FFFFFF; }
   @media screen and (max-width: 860px) {
@@ -55,11 +58,8 @@ header {
           transform: translateX(-50%);
   max-width: 1200px;
   z-index: 20;
-  background: #FFFFFF;
-  height: 40px;
-  border-bottom: solid 1px #000000;
-  -webkit-transition: all ease-in-out 300ms;
-  transition: all ease-in-out 300ms; }
+  background: #F6F6F6;
+  height: 40px; }
 
 .s-header {
   width: auto;
@@ -73,6 +73,7 @@ header {
   .s-header ul.nav {
     background: transparent;
     margin: 0px 10px 0px 0px;
+    padding: 0px;
     font-size: 0; }
     @media screen and (max-width: 860px) {
       .s-header ul.nav {
@@ -182,3 +183,26 @@ header {
 #cptoggle.on .three {
   -webkit-transform: rotate(-45deg) translate(8px, -8px);
           transform: rotate(-45deg) translate(8px, -8px); }
+
+#sv-grid-wrapper {
+  max-width: 1200px;
+  display: block;
+  margin: 40px auto 0px;
+  background: #333333; }
+
+#sv-grid {
+  background: green;
+  float: left;
+  width: 100%; }
+
+.sv-grid-item {
+  display: inline-block;
+  width: 50%;
+  min-height: 400px;
+  background: red; }
+
+#sv-grid-item-01 {
+  background: blue; }
+
+#sv-grid-item-03 {
+  background: yellow; }
