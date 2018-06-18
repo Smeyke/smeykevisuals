@@ -92,22 +92,111 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/links\/README.html": {
+	"\/links\/apple-touch-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 4798,
+		"oA": 0,
+		"oAP": "\/links\/apple-touch-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/links\/apple-touch-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 4622,
+		"oA": 0,
+		"oAP": "\/links\/apple-touch-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/links\/apple-touch-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 7097,
+		"oA": 0,
+		"oAP": "\/links\/apple-touch-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/links\/apple-touch-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 7910,
+		"oA": 0,
+		"oAP": "\/links\/apple-touch-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/links\/apple-touch-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 1569,
+		"oA": 0,
+		"oAP": "\/links\/apple-touch-icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/links\/apple-touch-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 2081,
+		"oA": 0,
+		"oAP": "\/links\/apple-touch-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/links\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 417,
+		"oA": 0,
+		"oAP": "\/links\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/links\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 793,
+		"oA": 0,
+		"oAP": "\/links\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/links\/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/links\/README.html",
+		"oAP": "\/links\/favicon.ico",
 		"oF": 0
 		},
-	"\/links\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"\/links\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 7097,
 		"oA": 0,
-		"oAP": "\/links\/styles-min.css",
+		"oAP": "\/links\/mstile-144x144.png",
 		"oF": 0,
-		"oS": 3
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/README.html": {
 		"cB": 0,
@@ -166,7 +255,7 @@
 	"creationDate": 551005166,
 	"displayValue": "smeykevisuals-code",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-kanye",
+	"iconImageName": "\/links\/apple-touch-icon-114x114.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
