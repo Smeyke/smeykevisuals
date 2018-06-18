@@ -31,7 +31,7 @@ main {
   background: #222222; }
 
 section p {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 40px auto 80px;
   padding: 40px 0px;
   position: relative;
@@ -46,7 +46,7 @@ header {
   padding: 0px; }
 
 #header-wrapper {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto; }
 
 .fluid-header {
@@ -56,7 +56,7 @@ header {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  max-width: 1200px;
+  max-width: 1600px;
   z-index: 20;
   background: #F6F6F6;
   height: 40px; }
@@ -185,7 +185,7 @@ header {
           transform: rotate(-45deg) translate(8px, -8px); }
 
 #sv-grid-wrapper {
-  max-width: 1200px;
+  max-width: 1600px;
   display: block;
   margin: 40px auto 0px;
   background: #333333; }
@@ -197,12 +197,26 @@ header {
 
 .sv-grid-item {
   display: inline-block;
-  width: 50%;
+  width: calc(50% - 32px);
   min-height: 400px;
   background: red; }
 
 #sv-grid-item-01 {
-  background: blue; }
+  margin: 16px; }
+
+#sv-grid-item-02 {
+  background-image: url("../img/foto-michael-weibel-fotograf-basel.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-margin: 16px; }
 
 #sv-grid-item-03 {
-  background: yellow; }
+  background-image: url("../img/portrait-michael-weibel-studio.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-margin: 16px; }
+
+#sv-grid-item-04 {
+  margin: 16px; }

@@ -115,7 +115,7 @@ main
   background: $jet
 
 section p
-	max-width: 1200px
+	max-width: 1600px
 	margin: 40px auto 80px
 	padding: 40px 0px
 	position: relative
@@ -134,7 +134,7 @@ header
 
 
 #header-wrapper
-  max-width: 1200px
+  max-width: 1600px
   margin: 0 auto
 
 
@@ -144,7 +144,7 @@ header
   top: 0
   left: 50%
   transform: translateX(-50%)
-  max-width: 1200px
+  max-width: 1600px
   z-index: 20
   background: $vapor
   height: 40px
@@ -282,7 +282,7 @@ header
 
 
 #sv-grid-wrapper
-  max-width: 1200px
+  max-width: 1600px
   display: block
   margin: 40px auto 0px
   background: $oil
@@ -294,13 +294,29 @@ header
 
 .sv-grid-item
   display: inline-block
-  width: 50%
+  width: calc(50% - 32px)
   min-height: 400px
   background: red
 
-#sv-grid-item-01
-  background: blue
 
+#sv-grid-item-01
+  margin: 16px
+
+#sv-grid-item-02
+  background:
+    image: url("../img/foto-michael-weibel-fotograf-basel.jpg")
+    repeat: no-repeat
+    position: 50% 50%
+    size: cover
+    margin: 16px
 
 #sv-grid-item-03
-  background: yellow
+  background:
+    image: url("../img/portrait-michael-weibel-studio.jpg")
+    repeat: no-repeat
+    position: 50% 50%
+    size: cover
+    margin: 16px
+
+#sv-grid-item-04
+  margin: 16px
