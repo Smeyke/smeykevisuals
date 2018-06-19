@@ -31,23 +31,13 @@ main {
   background: #222222; }
 
 section p {
-  max-width: 1600px;
+  max-width: 2000px;
   margin: 40px auto 80px;
   padding: 40px 0px;
-  position: relative;
-  background-color: #FFFFFF; }
+  position: relative; }
   @media screen and (max-width: 860px) {
     section p {
       padding: 120px 8px 40px; } }
-
-header {
-  background-color: #FFFFFF;
-  margin: 0px;
-  padding: 0px; }
-
-#header-wrapper {
-  max-width: 1600px;
-  margin: 0 auto; }
 
 .fluid-header {
   position: fixed;
@@ -56,10 +46,12 @@ header {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  max-width: 1600px;
+  max-width: 2000px;
   z-index: 20;
   background: #F6F6F6;
-  height: 40px; }
+  height: 40px;
+  -webkit-box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1); }
 
 .s-header {
   width: auto;
@@ -87,7 +79,7 @@ header {
         margin: 0px;
         padding: 0px; } }
   .s-header ul li a {
-    color: #000000;
+    color: #222222;
     background: transparent;
     text-decoration: none;
     margin: 0px;
@@ -123,7 +115,7 @@ header {
   height: 28px;
   width: 200px;
   display: inline-block;
-  margin: 8px 0px 0px 10px; }
+  margin: 8px 0px 0px 10%; }
 
 #cptoggle {
   width: 28px;
@@ -149,7 +141,7 @@ header {
   z-index: 40;
   display: inline-block;
   float: right;
-  margin: 8px 0px 0px 12px; }
+  margin: 8px 10% 0px 0px; }
   @media screen and (max-width: 860px) {
     #cpmenu {
       display: none;
@@ -185,31 +177,57 @@ header {
           transform: rotate(-45deg) translate(8px, -8px); }
 
 #sv-grid-wrapper {
-  max-width: 1600px;
-  display: block;
+  max-width: 2000px;
+  position: relative;
   margin: 40px auto 0px;
   background: #333333; }
 
 #sv-grid {
-  background: green;
-  float: left;
-  width: 100%; }
+  position: relative;
+  top: 50%;
+  left: 50%;
+  padding: 0px 0px 0px;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+h2 {
+  font-family: "AvertaBold";
+  font-size: 38px;
+  text-align: left;
+  letter-spacing: 0.02em;
+  margin: 24px 16px; }
+
+.sv-text-home {
+  text-align: left;
+  letter-spacing: 0.01em;
+  margin: 12px 16px;
+  max-width: 560px;
+  padding: 0px;
+  font-size: 20px; }
 
 .sv-grid-item {
   display: inline-block;
-  width: calc(50% - 32px);
-  min-height: 400px;
-  background: red; }
+  width: 50%;
+  min-height: 500px;
+  float: left; }
+  .sv-grid-item h2, .sv-grid-item p.sv-text-home, .sv-grid-item div#social-icons {
+    margin: 24px 0px 0px 20%; }
 
-#sv-grid-item-01 {
-  margin: 16px; }
+#social-icons a {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  background: #106ee8;
+  float: left;
+  margin: 24px 12px 0px 0px;
+  border-radius: 50%; }
 
 #sv-grid-item-02 {
   background-image: url("../img/foto-michael-weibel-fotograf-basel.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: cover;
-  background-margin: 16px; }
+  background-size: cover; }
 
 #sv-grid-item-03 {
   background-image: url("../img/portrait-michael-weibel-studio.jpg");
@@ -219,4 +237,28 @@ header {
   background-margin: 16px; }
 
 #sv-grid-item-04 {
-  margin: 16px; }
+  background-color: #222222;
+  color: #F6F6F6; }
+  #sv-grid-item-04 h2, #sv-grid-item-04 p.sv-text-home {
+    margin: 24px 24px 0px; }
+
+.sv-button {
+  position: absolute;
+  left: 50%;
+  margin: 24px 0px 24px 24px; }
+
+.sv-button a {
+  display: inline-block;
+  min-height: 40px;
+  width: auto;
+  background: #106ee8;
+  padding: 8px 24px 8px 20px;
+  text-decoration: none;
+  font-family: "AvertaBold";
+  color: #F6F6F6;
+  line-height: 48px; }
+  .sv-button a:hover {
+    color: #106ee8;
+    background-color: #F6F6F6;
+    -webkit-transition: ease-in-out all 250ms;
+    transition: ease-in-out all 250ms; }
