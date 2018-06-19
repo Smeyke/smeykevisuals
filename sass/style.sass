@@ -62,6 +62,7 @@ $spotify-clr:     #1DB954
 $github-clr:      #000000
 $behance-clr:     #1769FF
 $rss-clr:         #FF6600
+$dribbble-clr:    #AE4C89
 
 
 // PLACE FOR CLIENT COLORS
@@ -106,13 +107,11 @@ $sv-color-01:  #106ee8
 
 // BASIC STYLES
 body
-	background: $vapor
+	background: $white-smoke
 	font:
 		family: "AvertaRegular","Roboto", Helvetica Neue, Helvetica, sans-serif
 		weight: 400
 
-main
-  background: $jet
 
 section p
 	max-width: 2000px
@@ -137,8 +136,8 @@ header
   max-width: 2000px
   z-index: 20
   background: $vapor
-  height: 40px
-  box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1)
+  height: 60px
+  box-shadow: 0px 8px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1)
 
 
 .s-header
@@ -175,13 +174,18 @@ header
     display: inline-block
     font:
       size: 16px
-      weight: 400
+      family: "AvertaBold"
     line-height: 16px
     padding: 0px 2px
     margin: 0px 8px
 
     &:hover
       color: $sv-color-01
+      transition: ease-in-out 250ms all
+
+  #sv-menu-active
+    color: $sv-color-01
+
 
     @media screen and (max-width: $break-one)
       height: 60px
@@ -209,7 +213,7 @@ header
   height: 28px
   width: 200px
   display: inline-block
-  margin: 8px 0px 0px 10%
+  margin: 18px 0px 0px 10%
 
 #cptoggle
   width: 28px
@@ -238,7 +242,7 @@ header
   z-index: 40
   display: inline-block
   float: right
-  margin: 8px 10% 0px 0px
+  margin: 18px 10% 0px 0px
 
   @media screen and (max-width: $break-one)
     display: none
@@ -275,7 +279,7 @@ header
 #sv-grid-wrapper
   max-width: 2000px
   position: relative
-  margin: 40px auto 0px
+  margin: 60px auto 0px
   background: $oil
 
 #sv-grid
@@ -307,20 +311,45 @@ h2
 .sv-grid-item
   display: inline-block
   width: 50%
-  min-height: 500px
+  min-height: 560px
   float: left
+  background: $vapor
 
   h2, p.sv-text-home, div#social-icons
-    margin: 24px 0px 0px 20%
+    margin: 48px 0px 0px 20%
 
 #social-icons a
   display: inline-block
-  height: 60px
-  width: 60px
+  width: auto
   background: $sv-color-01
   float: left
-  margin: 24px 12px 0px 0px
-  border-radius: 50%
+  margin: -24px 12px 0px 0px
+  font:
+    size: 14px
+  color: $vapor
+  padding: 12px
+  text-decoration: none
+
+
+#sv-linkedin:hover
+    color: $vapor
+    background-color: $linkedin-clr
+    transition: ease-in-out all 250ms
+
+#sv-dribble:hover
+    color: $vapor
+    background-color: $dribbble-clr
+    transition: ease-in-out all 250ms
+
+#sv-instagram:hover
+    color: $vapor
+    background-color: $instagram-clr
+    transition: ease-in-out all 250ms
+
+#sv-twitter:hover
+    color: $vapor
+    background-color: $twitter-clr
+    transition: ease-in-out all 250ms
 
 
 
@@ -345,13 +374,17 @@ h2
   background:
     color: $jet
   color: $vapor
+  margin-left: -1px
+  padding-right: 1px
+
+
   h2, p.sv-text-home
-    margin: 24px 24px 0px
+    margin: 48px 48px 0px
 
 .sv-button
   position: absolute
   left: 50%
-  margin: 24px 0px 24px 24px
+  margin: 48px 0px 24px 48px
 
 
 .sv-button a

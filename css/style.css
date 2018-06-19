@@ -23,12 +23,9 @@
   clear: both; }
 
 body {
-  background: #F6F6F6;
+  background: #F5F5F5;
   font-family: "AvertaRegular","Roboto", Helvetica Neue, Helvetica, sans-serif;
   font-weight: 400; }
-
-main {
-  background: #222222; }
 
 section p {
   max-width: 2000px;
@@ -49,9 +46,9 @@ section p {
   max-width: 2000px;
   z-index: 20;
   background: #F6F6F6;
-  height: 40px;
-  -webkit-box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1); }
+  height: 60px;
+  -webkit-box-shadow: 0px 8px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1); }
 
 .s-header {
   width: auto;
@@ -85,14 +82,18 @@ section p {
     margin: 0px;
     display: inline-block;
     font-size: 16px;
-    font-weight: 400;
+    font-family: "AvertaBold";
     line-height: 16px;
     padding: 0px 2px;
     margin: 0px 8px; }
     .s-header ul li a:hover {
-      color: #106ee8; }
+      color: #106ee8;
+      -webkit-transition: ease-in-out 250ms all;
+      transition: ease-in-out 250ms all; }
+  .s-header #sv-menu-active {
+    color: #106ee8; }
     @media screen and (max-width: 860px) {
-      .s-header ul li a {
+      .s-header #sv-menu-active {
         height: 60px;
         width: 100%;
         line-height: 58px;
@@ -102,7 +103,7 @@ section p {
         padding: 0px;
         font-size: 12pt;
         border-top: solid 1px gray; }
-        .s-header ul li a:hover {
+        .s-header #sv-menu-active:hover {
           color: #FFFFFF;
           background: #106ee8; } }
 
@@ -115,7 +116,7 @@ section p {
   height: 28px;
   width: 200px;
   display: inline-block;
-  margin: 8px 0px 0px 10%; }
+  margin: 18px 0px 0px 10%; }
 
 #cptoggle {
   width: 28px;
@@ -141,7 +142,7 @@ section p {
   z-index: 40;
   display: inline-block;
   float: right;
-  margin: 8px 10% 0px 0px; }
+  margin: 18px 10% 0px 0px; }
   @media screen and (max-width: 860px) {
     #cpmenu {
       display: none;
@@ -179,7 +180,7 @@ section p {
 #sv-grid-wrapper {
   max-width: 2000px;
   position: relative;
-  margin: 40px auto 0px;
+  margin: 60px auto 0px;
   background: #333333; }
 
 #sv-grid {
@@ -209,19 +210,46 @@ h2 {
 .sv-grid-item {
   display: inline-block;
   width: 50%;
-  min-height: 500px;
-  float: left; }
+  min-height: 560px;
+  float: left;
+  background: #F6F6F6; }
   .sv-grid-item h2, .sv-grid-item p.sv-text-home, .sv-grid-item div#social-icons {
-    margin: 24px 0px 0px 20%; }
+    margin: 48px 0px 0px 20%; }
 
 #social-icons a {
   display: inline-block;
-  height: 60px;
-  width: 60px;
+  width: auto;
   background: #106ee8;
   float: left;
-  margin: 24px 12px 0px 0px;
-  border-radius: 50%; }
+  margin: -24px 12px 0px 0px;
+  font-size: 14px;
+  color: #F6F6F6;
+  padding: 12px;
+  text-decoration: none; }
+
+#sv-linkedin:hover {
+  color: #F6F6F6;
+  background-color: #007BB5;
+  -webkit-transition: ease-in-out all 250ms;
+  transition: ease-in-out all 250ms; }
+
+#sv-dribble:hover {
+  color: #F6F6F6;
+  background-color: #AE4C89;
+  -webkit-transition: ease-in-out all 250ms;
+  transition: ease-in-out all 250ms; }
+
+#sv-instagram:hover {
+  color: #F6F6F6;
+  background-color: #125688;
+  -webkit-transition: ease-in-out all 250ms;
+  transition: ease-in-out all 250ms; }
+
+#sv-twitter:hover {
+  color: #F6F6F6;
+  background-color: #55ACEE;
+  -webkit-transition: ease-in-out all 250ms;
+  transition: ease-in-out all 250ms; }
 
 #sv-grid-item-02 {
   background-image: url("../img/foto-michael-weibel-fotograf-basel.jpg");
@@ -238,14 +266,16 @@ h2 {
 
 #sv-grid-item-04 {
   background-color: #222222;
-  color: #F6F6F6; }
+  color: #F6F6F6;
+  margin-left: -1px;
+  padding-right: 1px; }
   #sv-grid-item-04 h2, #sv-grid-item-04 p.sv-text-home {
-    margin: 24px 24px 0px; }
+    margin: 48px 48px 0px; }
 
 .sv-button {
   position: absolute;
   left: 50%;
-  margin: 24px 0px 24px 24px; }
+  margin: 48px 0px 24px 48px; }
 
 .sv-button a {
   display: inline-block;

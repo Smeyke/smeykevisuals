@@ -19,6 +19,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/design.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/design.html",
+		"oF": 0
+		},
 	"\/fonts\/averta-bold-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -93,6 +100,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/fonts\/averta-regular-webfont.woff2",
+		"oF": 0
+		},
+	"\/frontend.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/frontend.html",
 		"oF": 0
 		},
 	"\/img\/favicon\/apple-touch-icon-114x114.png": {
@@ -250,6 +264,13 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/photography.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/photography.html",
+		"oF": 0
+		},
 	"\/readme.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -287,6 +308,16 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/scripts\/functions-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/scripts\/functions-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/scripts\/functions.js": {
 		"ft": 64,
