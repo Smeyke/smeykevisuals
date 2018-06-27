@@ -334,7 +334,17 @@ h2 {
 
 .small-title-portfolio {
   color: #222222;
-  margin: 16px 0px;
+  margin: 80px 0px 0px;
   display: block;
   font-family: "AvertaBold";
   font-size: 26px; }
+
+.unslider {
+  max-width: 860px; }
+
+.unslider-nav ol li {
+  border: solid #333 2px !important;
+  background: #333 !important; }
+
+.unslider-arrow {
+  display: none; }
