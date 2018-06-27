@@ -27,6 +27,10 @@ body {
   font-family: "AvertaRegular","Roboto", Helvetica Neue, Helvetica, sans-serif;
   font-weight: 400; }
 
+main {
+  margin: 0px;
+  padding: 0px; }
+
 section p {
   max-width: 2000px;
   margin: 40px auto 80px;
@@ -89,10 +93,8 @@ section p {
       color: #106ee8;
       -webkit-transition: ease-in-out 250ms all;
       transition: ease-in-out 250ms all; }
-  .s-header #sv-menu-active {
-    color: #106ee8; }
     @media screen and (max-width: 860px) {
-      .s-header #sv-menu-active {
+      .s-header ul li a {
         height: 60px;
         width: 100%;
         line-height: 58px;
@@ -102,9 +104,12 @@ section p {
         padding: 0px;
         font-size: 12pt;
         border-top: solid 1px gray; }
-        .s-header #sv-menu-active:hover {
+        .s-header ul li a:hover {
           color: #FFFFFF;
           background: #106ee8; } }
+
+#sv-menu-active {
+  color: #106ee8; }
 
 #logo {
   background-color: transparent;
@@ -116,11 +121,15 @@ section p {
   width: 200px;
   display: inline-block;
   margin: 18px 0px 0px 10%; }
+  @media screen and (max-width: 860px) {
+    #logo {
+      margin: 10px 14px 0px;
+      padding: 4px 0px; } }
 
 #cptoggle {
   width: 28px;
   height: 30px;
-  margin: 6px 8px 0px 12px;
+  margin: 16px 12px 0px 12px;
   z-index: 80;
   display: inline-block;
   background: transparent;
@@ -300,13 +309,22 @@ h2 {
     margin: 8px 0px; }
 
 .header-portfolio {
-  width: 100%;
+  width: calc(100% + 16px);
   height: 400px;
+  margin-top: 60px;
+  margin-left: -8px;
   background-position: 50% 30%;
-  background-color: red; }
+  background-color: #F6F6F6;
+  background-size: cover; }
+
+#header-design {
+  background-image: url(src=../../../img/design/header-design.png); }
 
 #header-photography {
-  background-image: url(src=../../../img/photography/header-photography.jpg); }
+  background-image: url(src=../../../img/photography/header-photography.png); }
+
+#header-frontend {
+  background-image: url(src=../../../img/front-end/header-front-end.png); }
 
 .title-portfolio {
   margin: 20px 0px;

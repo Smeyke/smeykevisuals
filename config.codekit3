@@ -754,6 +754,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/front-end\/header-front-end.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/front-end\/header-front-end.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/home\/foto-michael-weibel-fotograf-basel.jpg": {
 		"ft": 16384,
 		"iS": 365844,
@@ -1283,13 +1294,24 @@
 		},
 	"\/img\/photography\/header-photography.jpg": {
 		"ft": 16384,
-		"iS": 344349,
+		"iS": 343080,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/photography\/header-photography.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photography\/header-photography.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/photography\/header-photography.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/portrait-michael-weibel-studio.jpg": {
