@@ -28,8 +28,9 @@ body {
   font-weight: 400; }
 
 main {
-  margin: 0px;
-  padding: 0px; }
+  margin: 0px auto 160px;
+  padding: 0px;
+  max-width: 2000px; }
 
 section p {
   max-width: 2000px;
